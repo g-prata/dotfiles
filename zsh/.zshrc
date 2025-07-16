@@ -108,3 +108,10 @@ export PF_INFO="ascii title os host uptime ip memory"
 export PF_ALIGN="8"
 export PF_ASCII="Catppuccin"
 pfetch
+
+# java envvars
+export JAVA_HOME="/usr/lib/jvm/java-21-openjdk"
+export PATH="$JAVA_HOME/bin:$PATH"
+
+# python scripts path
+export PATH="$HOME/.local/bin:$PATH"
